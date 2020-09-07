@@ -1,0 +1,34 @@
+.top-sales {
+  border: 1px solid #fff;
+  width: 100px;
+  height: 100px;
+  font-family: 'Calibri';
+}
+.top-sales {
+  width: 45%;
+  height: 675px;
+}
+
+.top-sales {
+  font-family: 'Calibri';
+  color: #fff;
+}
+.header-top-games {
+  padding: 20px;
+}
+.container-table {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+table thead {
+  border-bottom: 1px solid #fff;
+}
+table th,
+table td {
+  text-align: center;
+}
+
+th {
+  width: 180px;
+}

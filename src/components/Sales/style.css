@@ -1,0 +1,42 @@
+.sales-box {
+  border: 1px solid #fff;
+  width: 68%;
+  height: 160px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-family: 'Calibri';
+}
+.total-sales-box {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.total-sales-box .sales-value {
+  margin-top: 15px;
+}
+.total-sales-box,
+.continent-sales-box {
+  padding: 10px;
+}
+.sales-value {
+  font-size: 40px;
+  font-weight: bold;
+}
+.continent-sales-box {
+  width: 65%;
+}
+.content-continent-sales {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.continent-sales {
+  display: flex;
+  flex-direction: column;
+}
+
+.continent {
+  font-weight: bold;
+}

@@ -1,0 +1,50 @@
+.accordion label {
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  background: #000;
+  color: #8497b0;
+  cursor: pointer;
+}
+.accordion .panel {
+  height: 0;
+  visibility: hidden;
+  background: #fff;
+}
+.accordion .input-accordion[type='checkbox'] {
+  display: none;
+}
+.accordion input[type='checkbox']:checked + .panel {
+  height: auto;
+  visibility: visible;
+}
+.scroll {
+  display: flex;
+  flex-direction: column;
+  max-height: 250px;
+  overflow: auto;
+  background: #fff;
+  padding: 5px;
+  scrollbar-color: #595959 #fff;
+}
+
+.input-checkbox {
+  all: unset;
+  border: 1px solid black;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.input-checkbox:checked {
+  background-color: #000;
+}
+
+.filter-name {
+  font-family: 'Calibri';
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 5px;
+}

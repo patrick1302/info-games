@@ -1,0 +1,11 @@
+.chart {
+  border: 1px solid #fff;
+}
+
+.chart {
+  width: 53%;
+  height: 675px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

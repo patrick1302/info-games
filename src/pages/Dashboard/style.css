@@ -1,0 +1,30 @@
+.dashboard {
+  background: #000;
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+}
+
+aside {
+  width: 250px;
+  height: 92vh;
+}
+
+aside h2 {
+  color: #333f50;
+}
+
+main {
+  background: #333f50;
+  width: 100%;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
