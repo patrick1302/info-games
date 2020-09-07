@@ -22,7 +22,7 @@
 .scroll {
   display: flex;
   flex-direction: column;
-  max-height: 250px;
+  max-height: 240px;
   overflow: auto;
   background: #fff;
   padding: 5px;
